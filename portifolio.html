@@ -1,24 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Professional Portfolio</title>
+    <style>
+        body {
+            background-color: #f4f4f4; /* A more neutral and professional background color */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+            text-align: center; /* Center align body content */
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto; /* Center the container horizontally with some top margin */
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .header-image {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #1c87c9;
+            font-size: 2.5em;
+        }
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        .navigation {
+            margin-top: 20px;
+        }
+        .navigation button {
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-size: 1em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f8f8f8;
+            cursor: pointer;
+        }
+        .navigation button:hover {
+            background-color: #eee;
+        }
+        .linkedin-badge-container {
+            margin: 20px auto; /* Center the LinkedIn badge */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="header-image" src="head.jpg" alt="Header Image">
+        
+        <h1>Professional Portfolio</h1>
+        
+        <p>Professional portfolio website.</p>
+        
+        <p>
+            I am a dedicated professional committed not only to work and studies but also to my family. I am passionate about **Data Science** and **Business Intelligence**.
+            <br><br>
+            I have been working in this field for 3 years in the private sector and independently on various projects.
+        </p>
 
-<html>
-	<meta charset = "utf-8">
-	<head>
-	<center>
-		<img src = "head.jpg" heitgh = "100%" weigth = "100%" ></img>
-	
-	</head>
-	<div {text-align: center;}>
-	<body style="background-color:#1c87c9;">
-		<h1>Portifólio profissional
-		</h1>
-			<p style="text-align:center;">Site para portifólio profissional.
-			</p>
-			<h5><p style="text-align:center;">Sou um profissional dedicado não só ao trabalho e aos estudos mas tambem à minha família. Sou apaixonado por Ciência de Dados e Inteligência de Negócios.
-		Trabalho na área a 3 anos na iniciativa privada e de forma independente com alguns projetos.
-		</p></h5>
-		<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-		<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="felipe-ramires-terrazas" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://br.linkedin.com/in/felipe-ramires-terrazas?trk=profile-badge">Felipe Ramires Terrazas</a></div>
-    </center>
-	</div>          
-	</body>
-	
+        <div class="navigation">
+            <button>About Me</button>
+            <button>Projects</button>
+            <button>Skills</button>
+            <button>Contact</button>
+        </div>
+
+        <div class="linkedin-badge-container">
+            <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+            <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="VERTICAL" data-vanity="felipe-ramires-terrazas" data-version="v1"></div>
+        </div>
+    </div>
+</body>
 </html>
