@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Portfólio Profissional</title>
+    <title>Professional Portfolio</title>
     <style>
         body {
-            background-color: #f4f4f4; /* Cor de fundo mais neutra e profissional */
+            background-color: #f4f4f4; /* A more neutral and professional background color */
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
             color: #333;
+            text-align: center; /* Center align body content */
         }
         .container {
             max-width: 800px;
-            margin: 0 auto;
+            margin: 20px auto; /* Center the container horizontally with some top margin */
             text-align: center;
             padding: 20px;
             background-color: #fff;
@@ -33,24 +34,51 @@
             font-size: 1.1em;
             line-height: 1.6;
         }
+        .navigation {
+            margin-top: 20px;
+        }
+        .navigation button {
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-size: 1em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f8f8f8;
+            cursor: pointer;
+        }
+        .navigation button:hover {
+            background-color: #eee;
+        }
+        .linkedin-badge-container {
+            margin: 20px auto; /* Center the LinkedIn badge */
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <img class="header-image" src="head.jpg" alt="Imagem de cabeçalho">
+        <img class="header-image" src="head.jpg" alt="Header Image">
         
-        <h1>Portfólio Profissional</h1>
+        <h1>Professional Portfolio</h1>
         
-        <p>Site para portfólio profissional.</p>
+        <p>Professional portfolio website.</p>
         
         <p>
-            Sou um profissional dedicado não só ao trabalho e aos estudos mas também à minha família. Sou apaixonado por **Ciência de Dados** e **Inteligência de Negócios**.
+            I am a dedicated professional committed not only to work and studies but also to my family. I am passionate about **Data Science** and **Business Intelligence**.
             <br><br>
-            Trabalho na área há 3 anos na iniciativa privada e de forma independente com alguns projetos.
+            I have been working in this field for 3 years in the private sector and independently on various projects.
         </p>
 
-        <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-        <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="VERTICAL" data-vanity="felipe-ramires-terrazas" data-version="v1"></div>
+        <div class="navigation">
+            <button>About Me</button>
+            <button>Projects</button>
+            <button>Skills</button>
+            <button>Contact</button>
+        </div>
+
+        <div class="linkedin-badge-container">
+            <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+            <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="VERTICAL" data-vanity="felipe-ramires-terrazas" data-version="v1"></div>
+        </div>
     </div>
 </body>
 </html>
